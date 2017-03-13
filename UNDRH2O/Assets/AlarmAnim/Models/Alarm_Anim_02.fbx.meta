@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 7bb4067cc4dc2794488361ff82e8848a
+timeCreated: 1486412908
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: alarmClock_Body
+    100004: alarmClock_Button
+    100006: alarmClock_HourHand
+    100008: alarmClock_MinuteHand
+    100010: alarmClock_Snooze
+    100012: grp_AlarmClock
+    400000: //RootNode
+    400002: alarmClock_Body
+    400004: alarmClock_Button
+    400006: alarmClock_HourHand
+    400008: alarmClock_MinuteHand
+    400010: alarmClock_Snooze
+    400012: grp_AlarmClock
+    4300000: alarmClock_Snooze
+    4300002: alarmClock_Button
+    4300004: alarmClock_MinuteHand
+    4300006: alarmClock_HourHand
+    4300008: alarmClock_Body
+    7400000: Alarm_Null
+    7400002: Alarm_Running
+    7400004: Alarm_Snooze
+    7400006: Alarm_Snooze_Up
+    9500000: //RootNode
+    13700000: alarmClock_Body
+    13700002: alarmClock_Button
+    13700004: alarmClock_HourHand
+    13700006: alarmClock_MinuteHand
+    13700008: alarmClock_Snooze
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Alarm_Null
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_AlarmClock
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Body
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Button
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_HourHand
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_MinuteHand
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Snooze
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Alarm_Running
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_AlarmClock
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Body
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Button
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_HourHand
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_MinuteHand
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Snooze
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Alarm_Snooze
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_AlarmClock
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Body
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Button
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_HourHand
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_MinuteHand
+        weight: 1
+      - path: grp_AlarmClock/alarmClock_Snooze
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
